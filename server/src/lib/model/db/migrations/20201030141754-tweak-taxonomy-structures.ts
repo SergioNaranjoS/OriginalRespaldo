@@ -8,9 +8,10 @@ export const up = async function (db: any): Promise<any> {
 
   	UPDATE taxonomy_terms SET term_sentence_source = "singleword-benchmark" WHERE term_name = "Benchmark";
 
-  	INSERT INTO taxonomy_terms (taxonomy_id, term_name, term_sentence_source, user_selectable)
-      VALUES ((SELECT id FROM taxonomies WHERE tax_name = 'Target Segments'), 'Covid-19 Keyword Spotter', 'du-covid-keywords', TRUE);
+  	INSERT INTO taxonomy_terms (taxonomy_id, term_name, user_selectable, term_sentence_source)
+      VALUES (1, 'Covid-19 Keyword Spotter', TRUE,'du-covid-keywords');
   `);
+  /*VALUES ((SELECT id FROM taxonomies WHERE tax_name = 'Target Segments'), 'Covid-19 Keyword Spotter', TRUE,'du-covid-keywords'); */
 };
 
 export const down = function (): Promise<any> {
