@@ -4,6 +4,7 @@ export const up = async function (db: any): Promise<any> {
   		ADD COLUMN term_sentence_source VARCHAR(255);
 
   	UPDATE taxonomies SET tax_name = "Target Segments" WHERE tax_name = "Content";
+	
 
   	UPDATE taxonomy_terms SET term_sentence_source = "singleword-benchmark" WHERE term_name = "Benchmark";
 

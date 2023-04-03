@@ -11,8 +11,8 @@ jobs:
           - 3306:3306
         env:
           MYSQL_ALLOW_EMPTY_PASSWORD: yes
-          MYSQL_USER: voicecommons
-          MYSQL_PASSWORD: voicecommons
+          MYSQL_USER: prueba
+          MYSQL_PASSWORD: 125342a
         options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=5
     runs-on: ubuntu-latest
     strategy:
