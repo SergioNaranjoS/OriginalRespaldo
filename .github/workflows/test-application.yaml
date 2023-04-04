@@ -6,7 +6,8 @@ jobs:
   test-server:
     services:
       mysql:
-        image: mysql:5.7
+        image: mysql:8.0
+        #image: mysql:5.7
         ports:
           - 3306:3306
         env:
