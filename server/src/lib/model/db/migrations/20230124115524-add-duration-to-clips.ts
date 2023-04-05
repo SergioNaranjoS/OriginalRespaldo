@@ -41,11 +41,10 @@ export const up = async function (db: any): Promise<any> {
 
   /*return db.runSql(`
   ALTER TABLE IF EXISTS clips ADD COLUMN duration INT NOT NULL DEFAULT 0;
-  `)*/
+  `)
+  */
   return db.runSql(`
-CALL modificarTablaClips();
-
-DROP PROCEDURE modificarTablaClips();
+      CALL modificarTablaClips();
   `)
 
 };

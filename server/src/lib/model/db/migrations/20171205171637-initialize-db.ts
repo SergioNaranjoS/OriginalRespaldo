@@ -53,23 +53,6 @@ export const up = async function (db: any): Promise<any> {
         CONSTRAINT votes_ibfk_1 FOREIGN KEY (clip_id) REFERENCES clips (id),
         CONSTRAINT votes_ibfk_2 FOREIGN KEY (client_id) REFERENCES user_clients (client_id)
       );
-
-
-      DELIMITER //
-CREATE PROCEDURE modificarTablaClips() BEGIN
-   IF NOT EXISTS(
-      SELECT
-        NULL
-      	FROM
-        INFORMATION_SCHEMA.COLUMNS
-      	WHERE
-        TABLE_NAME = 'clips'
-        AND COLUMN_NAME = 'duration' 
-      	) THEN
-      	ALTER TABLE clips ADD COLUMN duration INT NOT NULL DEFAULT 0;
-	END IF;
-END //
-DELIMITER ;
     `
   );
 };
