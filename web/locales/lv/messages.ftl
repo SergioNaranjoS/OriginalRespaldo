@@ -10,8 +10,16 @@ submit-form-action = Nosūtīt
 loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
+email-opt-in-info-sub-with-challenge = Saņemiet epastus par sacensībām vai pasākumiem, atgādinājumus par mērķiem, jaunumus un ziņas no Commaon Voice
+email-opt-in-privacy-v2 = Izvēloties saņemt epasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā kā tas ir norādīts Mozilla <privacyLink>privātuma politikā<privacyLink>.
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
+banner-error-slow-1 = Atvainojiet, Common Voice darbojas lēni. Paldies par interesi.
+banner-error-slow-2 = Mēs saņemam daudzus apmeklētājus un pašlaik izmeklējam problēmas.
+banner-error-slow-link = Statusa lapa
+error-something-went-wrong = Piedodiet, kaut kas nogāja greizi
+error-clip-upload = Šī ieraksts augšupielāde joprojām neizdodas. Vai turpināt mēģināt vēlreiz?
+error-clip-upload-server = Šī ieraksts augšupielāde serverī joprojām neizdodas. Pārlādējiet lapu vai vēlāk mēģiniet vēlreiz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -26,25 +34,35 @@ af = Afrikāņu
 am = Amhāru
 an = Aragonese
 ar = Arābu
+arn = Mapudungun
 as = Asāmiešu
 ast = Astūriešu
 az = Azerbaidžāņu
 ba = Baškīru
+bas = Basaa
 be = Baltkrievu
 bg = Bulgāru
+bm = Bambara
 bn = Bengāļu
+bo = Tibetiešu
 br = Bretoņu
+bs = Bosniešu
 bxr = Burjatu
+byv = Medumba
 ca = Katalāņu
 cak = Kaqchikel
+ckb = Centrālā kurdi
 cnh = Hakha Chin
+co = Korsikāņu
 cs = Čehu
 cv = Čuvašu
 cy = Velsiešu
 da = Dāņu
+dag = Dagbani
 de = Vācu
 dsb = Sorbānu, apaksējā
 dv = Divehu
+dyu = Diula
 el = Grieķu
 en = Angļu
 eo = Esperanto
@@ -59,56 +77,107 @@ fr = Franču
 fy-NL = Frīzu
 ga-IE = Īru
 gl = Galisiešu
+gn = Guaranu
+gom = Goans Konkani
 ha = Hausu
 he = Ebreju
 hi = Hindi
+hil = Hiligaņu
 hr = Horvātu
 hsb = Sorbiju, augšējā
+ht = Haitiešu
 hu = Ungāru
+hy-AM = Armēņu
+hyw = Armēnijas rietumu
 ia = Interlingua
 id = Indonēziešu
+ie = Interlingue
+ig = Igbo
 is = Islandiešu
 it = Itāļu
 izh = Izhoriešu
 ja = Japāņu
+jbo = Lojban
 ka = Gruzīnu
+kaa = Karakalpak
 kab = Kabilu
+kbd = Kabardiešu
+ki = Kikujiešu
 kk = Kazaku
+km = Khmeru
+kmr = Kurmanji kurdu
+kn = Kannadu
+knn = Konkani (Devanagari)
 ko = Korejiešu
 kpv = Komi-Zīriju
 kw = Kornvolu
 ky = Kirgīzu
+lb = Luksemburgas
+lg = Luganda
 lij = Ligūru
+ln = Lingalas
+lo = Laosas
 lt = Lietuviešu
 lv = Latviešu
+mai = Maithili
 mdf = Moksha
+mg = Malagasiešu
 mhr = Meadow Mari
 mk = Maķedoniešu
 ml = Malajaliešu
 mn = Mongoļu
+mni = Meetei Lon
+mos = Mossi
+mr = Marahthu
 mrj = Hill Mari
+ms = Maljiešu
 mt = Maltiešu
+my = Birmiešu
 myv = Erzya
+nan-tw = Taivānas (Minnan)
 nb-NO = Norvēģijas bukmolu
+nd = Isindebele (ziemeļi)
 ne-NP = Nepāliešu
+nhe = Austrumu Huasteca Nahuatl
+nhi = Rietumsjerra Puebla Nahuatl
+nia = Nias
 nl = Holandiešu
 nn-NO = Norvēģu Ņūnorsku
+nr = Isindebele (dienvidi)
+nso = Ziemeļsoto
+ny = Činjanja
+nyn = Runjankole
 oc = Oksitāņu
+om = Afaans Oromo
 or = Oriju
+pa-IN = Pandžabu
+pap-AW = Papiamento (Aruba)
 pl = Poļu
+ps = Pashto
 pt = Portugāļu
+quc = K'iche'
+quy = Kečua čanka
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rumāņu
 ru = Krievu
 rw = Kiņaruandu
 sah = Jakutu
+sat = Santali (Ol Chiki)
 sc = Sardīniešu
+scn = Sicīliešu
+sdh = Dienvidu kurdu
+shi = Shilha
 si = Sinhala
 sk = Slovāku
+skr = Saraiki
 sl = Slovēņu
+snk = Soninke
+so = Somāliešu
 sq = Albāņu
 sr = Serbu
+ss = Sisvatu
+st = Dienvidsoto
 sv-SE = Zviedru
 sw = Svahili
 syr = Sīriešu
@@ -116,18 +185,39 @@ ta = Tamilu
 te = Telugu
 tg = Tadžiku
 th = Taizemiešu
+ti = Tigrajiešu
+tig = Tigru
+tk = Turkmēņu
+tl = Tagalogu
+tn = Cvanu
+tok = Toki Pona
 tr = Turku
+ts = Ksitsonga
 tt = Tatāru
+tw = Twi
+ty = Taitiešu
+tyv = Tuvana
 uby = Ubykh
 udm = Udmurtu
+ug = Uiguru
 uk = Ukraiņu
 ur = Urdu
 uz = Uzbeku
+ve = Tshivenda
+vec = Venēciešu
 vi = Vjetnamiešu
 vot = Votisku
+wo = Volofu
+xh = Khosu
+yi = Jidišu
+yo = Jorubu
+yue = Kantonas
+zgh = Tamazigtu
 zh-CN = Ķīniešu (Ķīna)
 zh-HK = Ķīniešu (Honkonga)
 zh-TW = Ķīniešu (Taivāna)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -227,6 +317,7 @@ whats-public = Kas ir publiski pieejms?
 email-not-public = Mēs nepublicēsim jūsu epastu publiski.
 recordings-and-locale-public = Ieguldīto Ierakstu skaits un valodas, būs pieejmas publiski.
 username-optin-public = Jūs varat izvēlēties, vai lietotājvārds ir publisks vai anonīms.
+demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio klipi tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties mērķēt apmācību modeli uz noteiktu demogrāfisko segmentu.
 username-email-not-demographic = Jūsu lietotājvārds un epasts netiks piesaistīti publicētajiem datiem.
 
 ## Speak & Listen Shortcuts
@@ -255,6 +346,10 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Ierakstīt/Apturēt
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Atkārtoti ierakstīt
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Atmest pašreizējo ierakstu
+shortcut-submit = Enter
+shortcut-submit-label = Iesniegt ierakstus
 request-language-text = Vai vēl neredzat savu valodu Common Voice projektā?
 request-language-button = Pieprasīt valodu
 
@@ -281,16 +376,27 @@ profile-form-native-language =
     .label = Dzimtā valoda
 profile-form-additional-language =
     .label = Papildus valoda
+profile-form-language =
+    .label = Valoda
+profile-form-variant =
+    .label = Kurā { $language } valodas paveidā jūs runājat?
+profile-form-variant-default-value = Variants nav izvēlēts
 profile-form-accent =
     .label = Akcents
+profile-form-custom-accent-help-text =
+    .label = Kā jūs raksturotu savu akcentu?
+profile-form-custom-accent-placeholder-2 = Sāciet rakstīt, lai aprakstītu savu akcentu
 profile-form-age =
     .label = Vecums
+profile-form-gender-2 =
+    .label = Dzimums
 leaderboard-visibility =
     .label = Līderu saraksta redzamība
 hidden = Paslēpts
 visible = Redzams
 native-language =
     .label = Dzimtā valoda
+profile-form-add-accent = Pievienot jaunu akcentu “{ $inputValue }”
 profile-form-submit-save = Saglabāt
 profile-form-submit-saved = Saglabāts
 male = Vīrietis
@@ -310,8 +416,12 @@ profile-close = Aizvērt
 profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mūsu balss datiem būt precīzākiem.
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
 why-demographic = Kāpēc tas ir svarīgi?
+why-demographic-explanation-2 = Anonimizēti lietotāja dati, piemēram, vecums, dzimums un akcents, palīdz uzlabot ierakstus, ko izmanto, lai trenētu runas atpazīšanas algoritmu precizitāti. Jūsu lietotājvārds un epasts nekad netiks piesaistīti jūsu iesniegtajiem datiem, un jūs varat izvēlēties, vai padarīt savu lietotājvārdu publisku vai anonīmu.
 accept-privacy = Es piekrītu, ka Mozilla apstrādā manu informāciju tā kā tas ir norādīts Mozillas <privacyLink>privātuma politikā</privacyLink>
+accept-privacy-title = Privātuma politika
+accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes paziņojumam</privacyLink>
 login-identity = Pieteikšanās identitāte
+login = Pieslēgties
 login-signup = Ielogoties / Reģistrēties
 edit = Rediģēt
 email-subscriptions = Jaunumu abonēšana epastā
@@ -322,6 +432,10 @@ skip-submission-description = Iesnieguma iesniegšanas laikā atgriezeniskā sai
 skip-submission-note = Piezīme: mainot ieguldījuma veidu, jums būs jāizvēlas ierakstīt vai klausīties.
 off = Izslēgts
 on = Ieslēgts
+help-accent = Vai nepieciešama palīdzība ar akcentu?
+help-accent-explanation = Jūsu akcents ir veids, kā jūs izrunājat vārdus. To var ietekmēt jūsu dzīvesvieta, citas valodas, kuras runājat, un daudzi citi faktori. Šeit varat dalīties ar jebkuru informāciju, kas, jūsuprāt, ir svarīga.
+help-variants = Vai nepieciešama palīdzība ar variantiem?
+help-variants-explanation = Varianti ir noteikta valodas forma, piemēram, tie, kas dzīvo kādā ģeogrāfijā vai kopienā. Dažreiz tos sauc par dialektiem.
 
 ## Profile - Email
 
@@ -330,6 +444,9 @@ browse-file = Velciet un nometiet vai <browseWrap> Pārlūkojiet </browseWrap>
 connect-gravatar = Savienoties ar Gravatar
 gravatar_not_found = Jūsu epastam nav atrasts gravatārs
 file_too_large = Atlasītais fails ir pārāk liels
+avatar-uploaded = Bilde ielādēta
+max-file-size = maksimums { $kb }kb
+remove-avatar = Noņemt bildi
 
 ## Profile - Email
 
@@ -347,6 +464,10 @@ faq-what-cv-a =
     Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Kopējā balss ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Kopējā balss ir milzīga globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
     
     Mēs ne tikai vācam balss paraugus plaši runātās valodās, bet arī tajās, kurās ir mazāk runātāju. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām risināt šo trūkumu. Papildus kopīgajai balss datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
+faq-what-cv-a-2 =
+    Balss atpazīšanas tehnoloģija maina veidu, kā mēs mijiedarbojamies ar iekārtām, taču pašlaik pieejamās sistēmas ir dārgas un patentētas. Mozilla Common Voice ir iniciatīva, lai padarītu balss atpazīšanas tehnoloģijas labākas un pieejamākas ikvienam. Common Voice ir globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un vienkārši apmācīt ar balsi darbināmas lietotnes dažādās valodās.
+    
+    Mēs ne tikai apkopojam balss paraugus plaši lietotās valodās, bet arī tajās, kurās runātāju skaits ir mazāks. Daudzveidīgas balsu datu kopas publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām pašiem novērst nepilnības valodu balss tehnoloģiju atbalstā dažādās valodās.
 faq-why-important-q = Kāpēc tas ir svarīgi?
 faq-why-important-a =
     Runa bieži vien ir visdabiskākais veids, kā mēs sazināmies savā starpā, un balss tehnoloģijas nodrošina šo ērtību mūsu datoriem un mobilajām ierīcēm. Mēs vēlamies dot iespēju izstrādātājiem veidot pārsteidzošas balss atpazīšanas lietojumprogrammas, piemēram, reāllaika tulkotājus un balss iespējotus digitālos palīgus. Bet tagad lielākā daļa balss datu, kas nepieciešami, lai izveidotu šāda veida lietojumprogrammas, ir dārgi un patentēti. Mēs ceram, ka kopējā balss datu kopa sniedz izstrādātājiem to, kas viņiem ir nepieciešams, lai ieviestu jauninājumus un padarītu runas tehnoloģiju pieejamu savā valodā.
@@ -369,6 +490,9 @@ faq-why-different-speakers-a =
     Lielākā daļa runas datu bāzu tiek apmācītas ar dažu demogrāfisko datu pārmērīgu attēlošanu, kas rada novirzi attiecībā uz <articleLink>vidušķiras vīriešiem</articleLink>. Akcenti un dialekti, kas parasti ir nepietiekami pārstāvēti mācību datu kopās, parasti ir saistīti ar cilvēku grupām, kuras jau tā ir atstumtas. Daudzas mašīnas arī cenšas izprast sieviešu balsis.
     Tāpēc mūsu balss datu bāzē mēs vēlamies daudzveidību!
 faq-why-my-lang-q = Kāpēc mana valoda vēl nav iekļauta?
+faq-why-my-lang-a =
+    Common Voice ir pūļa pakalpojumu platforma, un visas valodas pievieno brīvprātīgie.
+    Mēs labprāt pievienotu jūsu valodu! <languageRequestLink>Jautājiet par valodas pievienošanu.</languageRequestLink>
 faq-what-quality-q = Kāda līmeņa audio kvalitāte ir nepieciešama, lai balss ierakstu varētu izmantot datu kopā?
 faq-what-quality-a = Mēs vēlamies, lai kopīgā balss datu kopa atspoguļotu skaņas kvalitāti, ko runātājs dzirdēs savvaļā, tāpēc mēs meklējam dažādību. Papildus daudzveidīgai runātāju kopai datu kopa ar atšķirīgu skaņas kvalitāti iemācīs runas-teksta dzinējam, rīkoties ar dažādām reālām situācijām, piemēram no fona ar automašīnu troksni. Kamēr jūsu balss klips ir saprotams, tas ir pietiekami labs datu kopai.
 faq-why-10k-hours-q = Kādēļ 10000 stundas ir mērķis ierakstu pārbaudē?
@@ -400,10 +524,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Kāpēc ir kopīgā balss?
+about-header-description-v2 =
+    <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
+    <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
+how-does-it-work-title-v2 = Kā darbojas Common Voice?
 how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamsu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku klipu precizitāti, uzlabojiet datu kopu visiem.
 
 ## How does it work section
 
+about-language-req-subtitle = Kāds lūdz pievienot valodu.
+about-localization-title = Vietnes lokalizācija
+about-localization-subtitle = Vietnes teksts tiek tulkots šajā valodā.
+about-sentence-collection-title = Teikumu kolekcija
+about-sentence-collection-subtitle = Teikumi tiek savākti, lai cilvēki tos varētu ierunāt.
+about-new-lang-title = Jaunas valodas palaišana
+about-new-lang-subtitle = Mēs palaižam Common Voice vietni šajā valodā.
+about-voice-contrib-title = Balss ieguldījums
+about-voice-contrib-subtitle = Cilvēki nāk un ierunā teikumus.
+about-voice-validation-title = Ierakstu pārbaudīšana
+about-voice-validation-subtitle = Citi cilvēki pārbauda vai teikumi ir ierunāti precīzi un pareizi.
+about-dataset-release-title = Datu kopas izlaišana
+about-dataset-release-subtitle = Mēs izlaižam datu kopu katrus 3 mēnešus.
+about-subscribe-text = Vai vēlaties sazināties ar Common Voice?
 about-speak = Runājiet
 about-speak-text = Dalībnieki ieraksta balss klipus, lasot no apkopoto teikumu datu bāzes.
 about-listen-queue = Klausīšanās rinda
@@ -421,27 +563,76 @@ about-dataset-new-text = Balss datu kopai ir simtiem tūkstošu balss paraugu, k
 about-clip-graveyard = Klipu kapsēta
 about-clip-graveyard-text = Klipu kapsēta sastāv no balss klipiem, kas netika iekļauti balss datu kopā. Tāpat kā datu kopa, klipu kapsēta ir pieejama lejupielādei.
 about-get-involved = Iesaistieties
+about-get-involved-text-2 =
+    Vēlaties palīdzēt padarīt Common Voice vēl labāku better?
+    Lieliski! Sazinieties ar mums pa epastu vai <discourseLink>Discourse</discourseLink>
+    forumu, ziņojiet par submit problēmām <githubLink>GitHub</githubLink>, vai pievienojieties <matrixLink>Matrix</matrixLink> kopienas tērzētavai.
+about-stay-in-touch = Kā es varu sazināties?
+about-stay-in-touch-button = Pierakstīties
+about-stay-in-touch-text-1 = <emailFragment>Reģistrējieties</emailFragment> mūsu epasta jaunumime, lai uzzinātu, kā varat piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas aktivitātēs.
+about-stay-in-touch-text-2 = Jūs varat satikt citus Mozilla valodu kopienās dalībniekus, pievienojoties <discourseLink>Discourse</discourseLink> aktuālām sarunām vai <matrixLink>Matrix</matrixLink>, lai saņemtu ātrus padomus.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
 about-nav-get-involved = Iesaistieties
+about-nav-how-it-works-2 = Kā darbojas Common Voice?
+about-nav-playbook = Uzziniet, kā piedalīties
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kas ir valoda Common Voice sistēmā?
+about-playbook-what-is-language-content-1 = Ir daudz veidu, kā domāt par valodu. Runas atpazīšanas modeļu kontekstā Common Voice iesaka koncentrēties uz "savstarpēju saprotamību" vai "vai šīs valodas runātāji var saprast viens otru, ja viņi to meģina?"
+about-playbook-what-is-language-content-2 = Mēs vēlamies, lai runas modeļi labāk saprastu dažādus runātājus. Lai tas notiktu, balss datu kopai ir jāatspoguļo kā runā daudzi dažādi cilvēki.
+about-playbook-what-is-language-content-3 = Dažām valodām ir milzīgas gramatikas, vārdu krājuma un izrunas atšķirības. Šī iemesla dēļ mēs 2022. gadā <ctaLink>ieviesām “Variantus”</ctaLink>. Tas sniedz kopienām iespēju atšķirt savas valodas lielākā datu kopā.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kā pievienot valodu?
+about-playbook-how-add-language-content-1 =
+    Vispirms pārbaudiet, vai jūsu valoda <languageLink>jau pastāv</languageLink>.
+    Ja tās vēl nav, varat <languageRequestLink>jautāt par valodas pievienošanu</languageRequestLink>.
+    Ir divi posmi. Vietnes tulkošana un teikumu apkopošana
+about-playbook-how-add-language-translating-heading = Vietnes tulkošana
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Skatiet mūsu ceļvedi par Pontoon lietošanu.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Tulkošanai mēs izmantojam Mozilla rīku <pontoonLink>Pontoon</pontoonLink>. Šajā rīkā ir daudz valodu,
+    bet, ja tajā nav jūsu, varat <pontoonRequestLink>pieprasīt savas valodas pievienošanu</pontoonRequestLink>.
+    Pēc tam, lai pievienotu valodu Common Voice,
+    <githubRepoLink>pieprasiet jauno valodu vietnē GitHub</githubRepoLink>. <localizationFragment>Uziniet vairāk par vietņu tulkošanu</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkopošana
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Skatieties mūsu ceļvedi par teikumu apkopotāja lietošanu</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Varat <sentenceCollectorLinkAdd>pievienot nelielu skaitu teikumu</sentenceCollectorLinkAdd>,
+    vai arī varat veikt <bulkImportDocsLink>lielapjoma importēšanu, izmantojot Github</bulkImportDocsLink>.
+    Atcerieties, ka teikumiem ir jābūt <licenseLink>CC0 (vai publiskajam domēnam)</licenseLink>, vai arī varat rakstīt savus.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Skatiet vairāk par teikumu apkopošanu</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Kā darbojas vietnes lokalizācija?
+about-playbook-how-localize-content-1 = Vietnes Common Voice tulkošana notiek <strong>Pontoon</strong> sistēmā.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Izveidojiet kontu</pontoonAccountLink>, ja jums tāda nav. Pēc tam izvēlieties valodu sadaļā <strong>Komanda jeb ‘Teams’</strong> un pēc tam izvēlieties projektu <pontoonCvLink>Common Voice</pontoonCvLink>. Tur būs tulkojamās datnes. Noklikšķiniet uz vienas, pēc tam tiks parādīti vārdi angļu valodā un lodziņš to tulkošanai.
+about-playbook-how-localize-content-3 = Tulkošana notiek no angļu valodas, taču varat skatīt <strong>Ieteikumus</strong> citās valodās. Noklikšķiniet uz ikonas <strong>Profils</strong>, pēc tam uz saites <strong>Iestatījumi</strong> un pievienojiet visas valodas, kurās runājat. Apakšējā labajā stūrī būs tulkojumu saraksts ar nosaukumu <strong>Locales</strong>. Common Voice vietnē tulkojumi parādīsies dienu vēlāk.
+about-playbook-how-localize-content-4 = Vietne ir gatava palaišanai, kad tā sasniedz 75% pabeigtību.
+about-playbook-how-localize-content-5 = Lai palīdzētu, skatiet mūsu video skaidrojumu
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Kā pievienot teikumus?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ir rīks publiskā domēna teikumu apkopošanai un apstiprināšanai. Jums būs <scAccountLink>jāizveido konts</scAccountLink>. Pēc tam pievienojiet valodu savam <strong>profilam</strong>. Varat <strong>pievienot</strong> teikumus vai <strong>pārskatīt</strong> iepriekš pievienotos teikumus.
+about-playbook-how-add-sentences-content-2 = Teikumi ir jāpārskata un jāpieņem diviem cilvēkiem, lai tie tiktu iekļauti Common Voice. Jūs varat izveidot vadlīnijas savai valodai <languageGuidelinesLink>šeit</languageGuidelinesLink>. Teikumiem jābūt <licenseLink>brīviem no autortiesībām</licenseLink>, un tiem jābūt īsākiem par 15 vārdiem. Varat lūgt teksta īpašniekam nodot teikumus <waiverLink>CC0 jeb brīvai lietošanai, izmantojot mūsu autortiesību nodošanas procesu</waiverLink>, un nosūtīt mums uz commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Varat izmantot <scraperLink>teikumu izvilkšanas rīku</scraperLink>, lai izmantotu īsus teikumus no Vikipēdijas.
+about-playbook-how-add-sentences-content-4 = Validētie teikumi tiek eksportēti trešdienās un ir pieejami nākamajā laidienā.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes balss klipu?
+about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu runas veids ir apsveicams - mēs vēlamies, lai jūsu akcents būtu tāds, kāds tas ir, un mēs vēlamies jūsu ierasto skaļumu, stilu un intonāciju.
 about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
+about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
+about-playbook-how-record-content-4 = Pārliecinieties, ka ieraksts ir sācies, pirms sākat runāt, un apturiet ierakstu tikai tad, kad esat pabeiguši runāt.
+about-playbook-how-record-content-5 = <accuracyLink>Skatiet vairāk par to kā pareizi ierakstīt.</accuracyLink>
 
 ## How to grow language
 
@@ -540,6 +731,7 @@ subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
 feedback-q = Vai jum ir atsauksmes?
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ir strādā atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļā mācīšanās balstītus STT un TTS dzinējus.
 data-other-librispeech-description = LibriSpeech ir aptuveni 1000 stundu 16Khz ar angļu valodas runu, kas iegūta no LibriVox projekta lasītajām audio grāmatām.
 data-other-ted-name = TED-LIUM korpuss
 data-other-ted-description = TED-LIUM korpuss tika izgatavots no audio ierakstiem un to transkripcijām, kas pieejamas TED tīmekļa vietnē.
@@ -652,6 +844,10 @@ record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
 login-to-get-started = Piesakieties vai reģistrējieties, lai sāktu
+target-segment-learn-more = Uzzināt vairāk
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -789,9 +985,11 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 
 ## DemoLayout
 
+demo-welcome-subheader = Vai vēlaties uzzināt vairāk un dot savu ieguldījumu projektā?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ir pasaulē lielākā publiski pieejamā vairāku valodu balss datu kopa.
 
 ## Demo Account
 
@@ -866,6 +1064,8 @@ see-less = <chevron></chevron>Rādīt mazāk
 
 ## HOW-TO
 
+sc-howto-addsen-item-3 = Saīsinājumi un akronīmi. Avota tekstā ir jāizvairās no saīsinājumiem un akronīmiem, piemēram, “ASV” vai “ICE”, jo tie var tikt lasīti tā, ka tie nesakrīt ar to pareizrakstību. Turklāt vienam saīsinājumam var būt vairāki precīzi rādījumi. Piemēram, akronīmu “ICE” var izrunāt kā “I-C-E” vai kā vienu vārdu.
+sc-howto-review-criteria-5 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Noraidīt". Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
 
 ## MY SENTENCES
 
@@ -908,3 +1108,4 @@ see-less = <chevron></chevron>Rādīt mazāk
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerības
 partnerships-get-in-touch = Sazināties
+sentence-collection = Teikumu kolekcija
