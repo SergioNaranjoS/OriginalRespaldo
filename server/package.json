@@ -26,7 +26,7 @@
     "ffmpeg-stream": "0.7.0",
     "fp-ts": "^2.13.1",
     "http-status-codes": "2.2.0",
-    "ioredis": "4.28.10",
+    "ioredis": "4.28.5",
     "js-md5": "0.7.3",
     "lodash.omit": "4.5.0",
     "lodash.pick": "4.4.0",
