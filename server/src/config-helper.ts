@@ -70,10 +70,10 @@ const BASE_CONFIG: CommonVoiceConfig = {
   PROD: configEntry('CV_PROD', true, castBoolean), // Set to true for staging and production.
   SERVER_PORT: configEntry('CV_SERVER_PORT', 9000, castInt),
   DB_ROOT_USER: configEntry('CV_DB_ROOT_USER', 'root'), // For running schema migrations.
-  DB_ROOT_PASS: configEntry('CV_DB_ROOT_PASS', '125342a'),
-  MYSQLUSER: configEntry('CV_MYSQLUSER', 'prueba'), // For normal DB interactions.
-  MYSQLPASS: configEntry('CV_MYSQLPASS', '125342a'),
-  MYSQLDBNAME: configEntry('CV_MYSQLDBNAME', 'voice'),
+  DB_ROOT_PASS: configEntry('CV_DB_ROOT_PASS', ''),
+  MYSQLUSER: configEntry('CV_MYSQLUSER', 'voicecommons'), // For normal DB interactions.
+  MYSQLPASS: configEntry('CV_MYSQLPASS', 'voicecommons'),
+  MYSQLDBNAME: configEntry('CV_MYSQLDBNAME', 'voiceweb'),
   MYSQLHOST: configEntry('CV_MYSQLHOST', 'localhost'),
   MYSQLPORT: configEntry('CV_MYSQLPORT', 3306, castInt),
   MYSQLREPLICAHOST: configEntry('CV_MYSQLREPLICAHOST', ''),
