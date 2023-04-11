@@ -3,5 +3,6 @@
   "MYSQLDBNAME": "voice",
   "MYSQLHOST": "127.0.0.1",
   "BUCKET_NAME": "voice-web-sergio",
-  "AWS_REGION": "EE. UU. Este (Ohio) us-east-2"
+  "AWS_REGION": "EE. UU. Este (Ohio) us-east-2",
+  "REDIS_URL": "redis"
 }
