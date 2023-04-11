@@ -9,6 +9,7 @@ email-input =
 submit-form-action = ⴰⵣⵏ
 loading = ⴰⵣⴷⴰⵎ…
 email-opt-in-info = ⵔⵉⵖ ⴰⴷ ⵜⵜⴰⵎⵥⵖ ⵉⵎⴰⵢⵍⵏ ⴰⵎ ⵓⵙⴽⵜⵉ ⵙ ⵉⵡⵜⵜⴰⵙⵏ, ⵉⵙⴷⵖⵉⵜⵏ ⵅⴼ ⵡⴰⵍⴰⵢ ⵉⵏⵓ ⴷ ⵉⵏⵖⵎⵉⵙⵏ ⵅⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ.
+email-opt-in-info-title = ⵍⴽⵎ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵡⴰⵣⴰⵏ ⵏ ⵉⵎⴰⵢⵍⵏ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
 not-available-abbreviation = ⵔ/ⵙ
 banner-error-slow-link = ⵜⴰⵙⵏⴰ ⵏ ⵡⴰⴷⴷⴰⴷ
 
@@ -221,6 +222,8 @@ privacy = ⵜⵉⵏⵏⵓⵜⵍⴰ
 terms = ⵜⵉⴼⴰⴷⵉⵡⵉⵏ
 cookies = ⵉⴽⵓⴽⵉⵜⵏ
 faq = ⵉⵙⵇⵙⵉⵜⵏ ⴷ ⵉⵜⵜⴰⵖⵓⵍⵏ
+link-copied = ⵉⵏⵖⵍ ⵓⵙⵖⵏ
+back-top = ⴰⵖⵓⵍ ⵙ ⵓⴼⵍⵍⴰ
 logout = ⴼⴼⵖ
 
 ## Home Page
@@ -229,6 +232,7 @@ home-cta = ⵙⴰⵡⴰⵍ, ⴰⵔⴳ ⴷⴰ!
 show-wall-of-text = ⵖⵔ ⵓⴳⴳⴰⵔ
 vote-yes = ⵢⴰⵀ
 vote-no = ⵓⵀⵓ
+speak-subtitle = ⴼⴽⴰⵜ ⴰⴳⵕⴹ ⵏⵏⵓⵏ
 help-reach-goal = ⴰⵡⵙ ⴰⵏⵖ ⴰⴷ ⵏⵍⴽⵎ { $goal }
 read-terms-q = ⵉⵙ ⵜⵖⵔⵉⴷ ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏⵏⵖ?
 all-locales = ⴰⴽⴽⵯ
@@ -308,6 +312,8 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = ⵙⵙⵏⵜⵢⴰⵜ ⵜⵉⵔⵔⴰ ⵃⵎⴰ ⴰⴷ ⵜⵙⵏⵓⵎⵎⵍⵎ ⴰⵙⵓⵙⵔⵓ ⵏⵏⵓⵏ
 profile-form-age =
     .label = ⴰⵡⵜⴰⵢ
+profile-form-gender-2 =
+    .label = ⴰⴳⵏⵓⵙ
 native-language =
     .label = ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵢⵎⵎⴰⵜ
 profile-form-submit-save = ⵃⴹⵓ
@@ -332,7 +338,7 @@ download-profile = ⴰⴳⵎ ⵉⵙⴼⴽⴰ ⵉⵏⵓ
 help-accent = ⵜⵓⵙⵔⴷ ⴽⵔⴰ ⵏ ⵜⵡⵉⵙⵉ ⴰⴽⴷ ⵓⵙⵓⵙⵔⵓ?
 help-accent-explanation = ⴰⵙⵓⵙⵔⵓ ⵏⵏⵓⵏ ⵉⴳⴰ ⵜⴰⵖⴰⵔⴰⵙⵜ ⵏⵏⴰ ⵙ ⵜⴻⵜⵜⵙⵓⵙⵔⵓⵎ ⵜⵉⴳⵓⵔⵉⵡⵉⵏ. ⵉⵣⵎⵔ ⴰⴷ ⴷ ⵉⴽⴽ ⴷⵉⵏⵏⴰ ⴳ ⵜⴷⴷⵔⵎ, ⵜⵓⵜⵍⴰⵢⵉⵏ ⵢⴰⴹⵏⵉⵏ ⵙ ⵜⵙⴰⵡⴰⵍⵎ ⴷ ⴽⵉⴳⴰⵏ ⵏ ⵉⵎⵙⴽⴰⵔⵏ ⵢⴰⴹⵏⵉⵏ. ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴱⴹⵓⵎ ⵉⵏⵖⵎⵉⵙⵏ ⵏⵏⴰ ⵙ ⴽⴰ ⵜⵙⵢⴰⴼⴰⵎ ⵉⵙ ⴷ ⵓⵙⴰⵏ ⴷⴰⵀⴰ.
 help-variants = ⵜⵓⵙⵔⴷ ⴽⵔⴰ ⵏ ⵜⵡⵉⵙⵉ ⴰⴽⴷ ⵜⵎⵣⴰⵔⴰⵢⵉⵏ?
-help-variants-explanation = ⵜⵉⵎⵣⴰⵔⴰⵢⵉⵏ ⴳⴰⵏⵜ ⵢⴰⵜ ⵜⴰⵍⵖⴰ ⵉⵥⵍⵢⵏ ⵏ ⵢⴰⵜ ⵜⵓⵜⵍⴰⵢⵜ - ⵉⵜⵜⵓⴱⴹⴰⵏ ⵙ ⵓⵎⴷⵢⴰ ⴳⵔ ⵎⴷⴷⵏ ⴷⴷⵔⵏⵉⵏ ⴳ ⵢⴰⵜ ⵜⴰⵔⴰⴽⴰⵍⵜ ⵏⵉⵖ ⵜⴰⴳⵔⴰⵡⵜ. ⴷⴰ ⴰⵙⵏⵜ ⵜⵜⵉⵏⵉⵏ ⴽⵔⴰ ⵏ ⵜⵉⴽⴽⴰⵍ ⵜⵉⵏⵜⴰⵍⵉⵡⵉⵏ.
+help-variants-explanation = ⴳⴰⵏⵜ ⵜⵎⵣⴰⵔⴰⵢⵉⵏ ⵢⴰⵜ ⵜⴰⵍⵖⴰ ⵉⵥⵍⵢⵏ ⵏ ⵢⴰⵜ ⵜⵓⵜⵍⴰⵢⵜ - ⵉⵜⵜⵓⴱⴹⴰⵏ ⵙ ⵓⵎⴷⵢⴰ ⴳⵔ ⵎⴷⴷⵏ ⴷⴷⵔⵏⵉⵏ ⴳ ⵢⴰⵜ ⵜⴰⵔⴰⴽⴰⵍⵜ ⵏⵉⵖ ⵜⴰⴳⵔⴰⵡⵜ. ⴷⴰ ⴰⵙⵏⵜ ⵜⵜⵉⵏⵉⵏ ⴽⵔⴰ ⵏ ⵜⵉⴽⴽⴰⵍ ⵜⵉⵏⵜⴰⵍⵉⵡⵉⵏ.
 
 ## Profile - Email
 
@@ -352,15 +358,21 @@ faq-why-mission-q = ⵎⴰⵅⴼ ⵉⴳⴰ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵜⴰⴳⴹ
 faq-why-account-q = ⵎⴰⵅⴼ ⵉ ⴷ ⵉⵇⵇⴰⵏ ⴰⴷ ⵣⵎⵎⴻⵎⵖ ⴰⵎⵉⴹⴰⵏ?
 faq-is-account-public-q = ⵉⵙ ⴳⴰⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵓⵎⵉⴹⴰⵏ ⵉⵏⵓ ⵉⴳⴷⵓⴷⴰⵏⵏ?
 faq-using-cv = ⴰⵙⵙⵎⵔⵙ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ
+faq-search-for-answers =
+    .label = ⵔⵣⵓ ⵅⴼ ⵜⵎⵔⵓⵔⴰ
 
 ## ABOUT US
 
+about-title = ⵎⴰⵅ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 how-does-it-work-title-v2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
 
 ## How does it work section
 
 about-language-req-subtitle = ⴷⴰ ⵉⵜⵜⴻⵜⵜⵔ ⴽⵔⴰ ⵏ ⵢⴰⵏ ⴰⵔⵏⵏⵓ ⵏ ⵢⴰⵜ ⵜⵓⵜⵍⴰⵢⵜ.
 about-new-lang-title = ⴰⵙⵙⵏⵜⵉ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵎⴰⵢⵏⵓⵜ
+about-new-lang-subtitle = ⵏⵕⵥⵎ ⴰⵙⵉⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⴰ.
+about-voice-contrib-subtitle = ⴷⴰ ⴷ ⵜⵜⴷⴷⵓⵏ ⵎⴷⴷⵏ ⴰⵔⴳⵏ ⵙ ⵉⴳⵕⴹⴰⵏ ⵏⵏⵙⵏ.
+about-dataset-release-subtitle = ⴷⴰ ⵏⵙⵙⵓⴼⵓⵖ ⵜⴰⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⴽⵓ 3 ⵡⴰⵢⵢⵓⵔⵏ.
 about-stay-in-touch-button = ⴽⵛⵎ
 about-nav-how-it-works = ⵎⴰⵏⵎⴽ?
 about-nav-how-it-works-2 = ⵎⴰⵏⵎⴽ ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?
@@ -425,8 +437,10 @@ terms-disagree = ⵓⵔ ⴷ ⵎⵙⴰⵙⴰⵖ
 
 ## Datasets Page
 
+datasets-heading = ⵜⵉⴳⵔⵓⵎⵎⴰⵡⵉⵏ ⵏ ⵉⵙⴼⴽⴰ
 language = ⵜⵓⵜⵍⴰⵢⵜ
 cv-license = ⵜⵓⵔⴰⴳⵜ
+email-to-download = ⵙⵙⴽⵛⵎ ⵉⵎⴰⵢⵍ ⵃⵎⴰ ⴰⴷ ⵜⴰⴳⵎⴷ
 size-gigabyte = ⵊⵜ
 size-megabyte = ⵎⵜ
 download-language = ⴰⴳⵎ { $language }
